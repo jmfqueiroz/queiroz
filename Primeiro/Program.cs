@@ -24,7 +24,7 @@ namespace Primeiro
             Console.WriteLine("#List:" + list.Count);
 
             string s1 = list.Find(x => x[0] == 'B');
-            string s2 = list.FindLast(x => x[0] == 'B');
+            string s2 = list.FindLast(x => x[0] == 'BA');
 
             Console.WriteLine(s1);
             Console.WriteLine(s2);
